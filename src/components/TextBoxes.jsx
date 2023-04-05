@@ -57,14 +57,14 @@ export const InputArea = ({ InputText, setInputText, handleSubmit, prompt }) => 
                 )
 
                 }
-                {InputText && (
+                
                     <FiSend
-                        className="absolute bottom-0 right-0 m-2 text-blue-500 cursor-pointer"
+                        className="absolute bottom-0 right-0 m-2 text-white cursor-pointer"
                         onClick={handleSubmit}
                     />
-                )
+                
 
-                }
+                
 
             </div>
         </div>

@@ -30,8 +30,8 @@ function Register() {
 
     } catch (error) {
 
-      if (error.message === "INVALID_PASSWORD" || error.message==="email not found") {//check on the exact firebase error message and correct
-        setError('Invalid password'||"No such email");//confirm if this or statement is correct
+      if (error.message === "Firebase: Error (auth/email-already-in-use).") {//check on the exact firebase error message and correct
+        setError("Email already exists, login instead");//confirm if this or statement is correct
         setloading(false);
         return;
       } else {

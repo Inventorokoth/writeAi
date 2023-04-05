@@ -1,7 +1,7 @@
 // hook for the fetching from the openAi api
 
 import { useState } from "react"
-
+const ApiUrl = 'https://api.openai.com/v1/completions ';
 const useApiFetch = () => {
 
     const [error, setError] = useState();

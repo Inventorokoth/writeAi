@@ -10,9 +10,11 @@ import { useAuth } from '../contexts/AuthContext';
 function Sidebar() {
 
   const { Currentuser } = useAuth();
-  const userName=Currentuser.username
-  const profile_pic=Currentuser.profileUrl //check these currentuser.username and currentuser.profile url 
+  const userName=Currentuser.email
 
+  const profile_pic=Currentuser.photoURL
+   //check these currentuser.username and currentuser.profile url 
+console.log(profile_pic)
   return (
 
     <div className='flex  flex-col  w-1/6  h-screen py-4 bg-gray-800 md:flex md:h-screen'> {/*later on check on the percentages of these widths so on md: the width is a bit smaller and the outlet also changes on md: so it covers for the shrinking of the sidebar */}
@@ -44,7 +46,8 @@ function Sidebar() {
 
       <div className='absolute bottom-0 w-1/6 md:w-1/6  flex justify-center  py-5 lg:flex lg:justify-center'>
         <div className=' border rounded-full w-10 h-10 cursor-pointer lg:flex lg:justify-center'>
-          <img src='/src/assets/img.png' /> {/*this image is just for test,replace the src with the profile url from the currently signed in user */}
+        <h2>{userName}</h2>
+          <img src={profile_pic} /> {/*this image is just for test,replace the src with the profile url from the currently signed in user */}
         </div>
         {/* this div is for the image of the signed in user so that if clicked it logs out the user */}
       </div>

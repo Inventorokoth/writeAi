@@ -30,13 +30,17 @@ function Login() {
 
     } catch (error) {
 
-      if (error.message === "INVALID_PASSWORD") {//check on the exact firebase error message and correct
+      if (error.message === "Firebase: Error (auth/wrong-password).") {//check on the exact firebase error message and correct
         setError('Invalid password');
+        console.log('first')
         setloading(false);
         return;
-      } else {
-         setError('something went wrong. please try again')
+      }else if (error.message=='Firebase: Error (auth/user-not-found).'){
+        setError('User not found, SignUp instead')
+      } else{
+        setError('something went wrong. please try again')
       }
+      
     } finally {
       setloading(false);
     }

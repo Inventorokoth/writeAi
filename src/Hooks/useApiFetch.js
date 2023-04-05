@@ -26,8 +26,8 @@ const useApiFetch = () => {
             setError(err);
             console.log(error)//just for debuging, remove it afterwards
         }
-    }
-    return [ApiFetch, ApiResponse]
+    };
+    return [ ApiResponse,ApiFetch]
 }
 
 export default useApiFetch;

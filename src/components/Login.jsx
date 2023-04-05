@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { FcGoogle as GoogleLogo } from "react-icons/Fc";
 import { useAuth } from '../contexts/AuthContext';
 import SpinnerSvg from './SpinnerSvg';
-
+import { Link } from 'react-router-dom';
 
 function Login() {
   const navigate = useNavigate();
@@ -58,7 +58,7 @@ function Login() {
                   type="email"
                   id="email"
                   onChange={e => (setEmail(e.target.value))}
-                  className="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full"
+                  className="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full "
                 />
 
                 <label className="font-semibold text-sm text-gray-600 pb-1 block">
@@ -90,12 +90,7 @@ function Login() {
             </div>
             <div className="py-5">
               <div className="flex justify-center">
-                <button
-                  className="text-blue-500 hover:text-blue-600 text-sm font-semibold"
-                //   onClick={BtnAction}
-                >
-                Dont have an account? Register
-                </button>
+              <Link to={'/register'}  className="text-blue-500 hover:text-blue-600 text-sm font-semibold">Dont have an account? Sign Up</Link>
               </div>
             </div>
 

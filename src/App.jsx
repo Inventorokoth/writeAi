@@ -36,7 +36,7 @@ function App() {
             <Route path="contact" element={<h2>contact page</h2>} /> {/*replace the contact component later*/}
             <Route path="register" element={<Register />} />
           </Route>
-          <Route path="mainpage" element={<LandingPage />} />
+          <Route path="/mainpage" element={<LandingPage />} />
           <Route path="*" element={<Error />} />
 
         </Routes>

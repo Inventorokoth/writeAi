@@ -235,20 +235,27 @@ function LandingPage() {
                     <div className="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8" data-v-79ccdc36>
                         <div className="relative px-6 py-10 overflow-hidden bg-white border-primary border-2 shadow-xl rounded-2xl sm:px-12 sm:py-20" data-v-79ccdc36>
                             <div className="relative" data-v-79ccdc36>
-                                <div className="flex flex-wrap justify-center w-full mx-auto sm:max-w-3xl px-6" data-v-79ccdc36>
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="User ben" className="w-10 h-10 mx-auto border-2 border-slate-200 rounded-full shadow-sm object-cover" data-v-79ccdc36></img>
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="User ben" className="w-10 h-10 mx-auto border-2 border-slate-200 rounded-full shadow-sm object-cover" data-v-79ccdc36></img>
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="User ben" className="w-10 h-10 mx-auto border-2 border-slate-200 rounded-full shadow-sm object-cover" data-v-79ccdc36></img>
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="User ben" className="w-10 h-10 mx-auto border-2 border-slate-200 rounded-full shadow-sm object-cover" data-v-79ccdc36></img>
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="User ben" className="w-10 h-10 mx-auto border-2 border-slate-200 rounded-full shadow-sm object-cover" data-v-79ccdc36></img>
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="User ben" className="w-10 h-10 mx-auto border-2 border-slate-200 rounded-full shadow-sm object-cover" data-v-79ccdc36></img>
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="User ben" className="w-10 h-10 mx-auto border-2 border-slate-200 rounded-full shadow-sm object-cover" data-v-79ccdc36></img>
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="User ben" className="w-10 h-10 mx-auto border-2 border-slate-200 rounded-full shadow-sm object-cover" data-v-79ccdc36></img>
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="User ben" className="w-10 h-10 mx-auto border-2 border-slate-200 rounded-full shadow-sm object-cover" data-v-79ccdc36></img>
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="User ben" className="w-10 h-10 mx-auto border-2 border-slate-200 rounded-full shadow-sm object-cover" data-v-79ccdc36></img>
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="User ben" className="w-10 h-10 mx-auto border-2 border-slate-200 rounded-full shadow-sm object-cover" data-v-79ccdc36></img>
-                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="User ben" className="w-10 h-10 mx-auto border-2 border-slate-200 rounded-full shadow-sm object-cover" data-v-79ccdc36></img>
-                                    {/* add more images here */}
+                                <div className=" flex flex-wrap justify-center w-full mx-auto sm:max-w-3xl px-6  py-6 " data-v-79ccdc36>
+                                    <div
+                                        className="w-40 h-10 mx-auto border-2 my-4 text-center border-gray-500  rounded-md shadow-md object-cover"
+                                        data-v-79ccdc36>Grammar Correction</div>
+                                    <div
+                                        className="w-40 h-10 mx-auto border-2 my-4 text-center  border-gray-500  rounded-md shadow-md object-cover"
+                                        data-v-79ccdc36>Text lengthening</div>
+                                    <div
+                                        className="w-40 h-10 mx-auto border-2 my-4 text-center border-gray-500   rounded-md shadow-md object-cover"
+                                        data-v-79ccdc36>Paragraph summarry</div>
+                                    <div
+                                        className="w-40 h-10 mx-auto border-2 my-4 text-center border-gray-500   rounded-md shadow-md object-cover"
+                                        data-v-79ccdc36>Text shortening</div>
+                                    <div
+                                        className="w-40 h-10 mx-auto border-2 my-4 text-center  border-gray-500   rounded-md shadow-md object-cover"
+                                        data-v-79ccdc36>Context Analyzer</div>
+                                    <div
+                                        className="w-40 h-10 mx-auto border-2 my-4 text-center  border-gray-500   rounded-md shadow-md object-cover"
+                                        data-v-79ccdc36>Plagiarism removal</div>
+
+
                                 </div>
 
                                 <div className="mt-6 sm:mt-12 sm:text-center" data-v-79ccdc36>
@@ -283,11 +290,12 @@ function LandingPage() {
                         </div>
                     </div>
                 </section>
+                <span className=' flex justify-center opacity-50'>Developed by owen okoth&copy;2023</span>
             </div>
-
+            
         </div>
 
     )
 }
 
-export default LandingPage
+export default LandingPage;
